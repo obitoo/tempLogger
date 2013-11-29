@@ -1,0 +1,7 @@
+In an attempt to solve the mystery of why one bedroom in my house feels warmer than the other, i knocked up this temperature monitor for the Rpi.   It uses 2 tmp102 sensors, a python script to read them every 5 mins and a bit of php to draw a graph over time on the local webserver. 
+
+
+Dependencies:
+jpgraph Version: v3.0.7
+
+
