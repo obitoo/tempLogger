@@ -14,7 +14,7 @@ Temp Logger - RPi - Twin sensors <p>
    // All work is done in the above call to graph.php. Here we read again 
    // just so we can dump the raw data
 
-   $num_rows = mygraph_read("tempdata1.txt");
+   $num_rows = read_all_graph_data();
    print "Num Rows:  $num_rows   <p>";
 
    // dump

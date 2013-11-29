@@ -8,7 +8,7 @@
 DEFINE('GRAPHMAXTMP',30); 
 DEFINE('GRAPHMINTMP',10); 
 
-function mygraph_read($filename)
+function read_all_graph_data()
 {
    global $ydata, $xdata, $xrawdata;
    global $y2data;
@@ -63,7 +63,7 @@ function mygraph_read($filename)
 }
 
 
-function mygraph_draw($colour)
+function mygraph_draw()
 {
    global $ydata, $xdata, $y2data;
 
