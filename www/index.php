@@ -1,1 +1,0 @@
-/var/www/temp/index.php
